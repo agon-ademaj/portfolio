@@ -6,7 +6,7 @@ const AboutUs: React.FC = () => {
     <section className={`flex flex-col bg-white py-20 text-3xl md:text-4xl`}>
       <div className='container mx-auto px-11'>
         <p className='leading-tight max-w-5xl mx-auto lg:text-4xl text-3xl tracking-tight'>
-          <strong>Hi there, I'm Agon Ademaj</strong>, I work as frontend &
+          <strong>Hi there, I&apos;m Agon Ademaj</strong>, I work as frontend
           backend developer creating thoughtful experiences. I always strive to
           achieve the highest standard possible, at any given task in any
           situation. I am accostumed to working in a challenging environment,
@@ -14,9 +14,9 @@ const AboutUs: React.FC = () => {
           same time. <br></br> Programming has always been my passion and hobby
           since my early childhood. I learned to code on my own out of
           curiosity. <br></br> This curiosity helped me to stay up-to-date from
-          year to year and I'm still learning every single day to ensure I can
-          deliver the most modern and effective solutions. I believe in working
-          hard and smart.
+          year to year and I&apos;m still learning every single day to ensure I
+          can deliver the most modern and effective solutions. I believe in
+          working hard and smart.
         </p>
       </div>
       <div className='container px-11 text-center mt-28 mx-auto'>

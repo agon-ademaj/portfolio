@@ -19,13 +19,11 @@ const ProjectItem: React.FC<Props> = ({
 }) => (
   <div className='lg:p-4 md:w-full flex justify-center cursor-pointer'>
     <div className='max-w-sm rounded-2xl overflow-hidden shadow-lg'>
-      <img className='w-full' src={`assets/projects/${image}.jpg`} />
+      <Image className='w-full' src={`assets/projects/${image}.jpg`} />
 
       <div className='px-6 py-4 lg:h-52'>
         <div className='title-font text-2xl font-bold mb-2'>
-          <a href='#' className='no-underline text-gray-900'>
-            {name}
-          </a>
+          <p className='no-underline text-gray-900'>{name}</p>
         </div>
 
         <span className='tracking-widset text-xs title-font font-medium text-gray-400 mb-1'>

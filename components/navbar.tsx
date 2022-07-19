@@ -19,7 +19,7 @@ const MobileNav: React.FC<Props> = ({ open, setOpen }) => (
       </a> */}
     </div>
     <div className='flex flex-col ml-4 mt-20'>
-      <a
+      <Link
         className='text-3xl font-normal my-4'
         href='/'
         onClick={() =>
@@ -29,8 +29,8 @@ const MobileNav: React.FC<Props> = ({ open, setOpen }) => (
         }
       >
         Home
-      </a>
-      <a
+      </Link>
+      <Link
         className='text-3xl font-normal my-4'
         href='/projects'
         onClick={() =>
@@ -40,7 +40,7 @@ const MobileNav: React.FC<Props> = ({ open, setOpen }) => (
         }
       >
         Projects
-      </a>
+      </Link>
     </div>
   </div>
 );
@@ -79,14 +79,9 @@ const Navbar: React.FC = () => {
           />
         </div>
 
-        <div className='hidden md:flex'>
-          <Link href='/'>
-            <a className=''>Home</a>
-          </Link>
-          <Link href='/projects'>
-            <a className='mx-10'>Projects</a>
-          </Link>
-          {/* <a href='/contact'>Contact</a> */}
+        <div className='hidden md:flex grid gap-5'>
+          <Link href='/'>Home</Link>
+          <Link href='/projects'>Projects</Link>
         </div>
       </div>
     </nav>
