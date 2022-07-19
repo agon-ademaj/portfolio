@@ -8,7 +8,7 @@ interface Props {
 
 const MobileNav: React.FC<Props> = ({ open, setOpen }) => (
   <div
-    className={`absolute top-0 left-0 h-screen w-screen bg-black transform ${
+    className={`absolute top-0 left-0 h-screen w-screen bg-black transform text-4xl ${
       open ? "-translate-x-0" : "-translate-x-full"
     } transition-transform duration-300 ease-in-out filter `}
   >
@@ -20,7 +20,7 @@ const MobileNav: React.FC<Props> = ({ open, setOpen }) => (
     </div>
     <div className='flex flex-col ml-4 mt-20'>
       <Link
-        className='text-3xl font-normal my-4'
+        className='font-normal my-4'
         href='/'
         onClick={() =>
           setTimeout(() => {
@@ -31,7 +31,7 @@ const MobileNav: React.FC<Props> = ({ open, setOpen }) => (
         Home
       </Link>
       <Link
-        className='text-3xl font-normal my-4'
+        className='font-normal my-4'
         href='/projects'
         onClick={() =>
           setTimeout(() => {
