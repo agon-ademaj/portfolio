@@ -33,3 +33,9 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+node_modules
+.next
+dist
+.vercel
+.env
